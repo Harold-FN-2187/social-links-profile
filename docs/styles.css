@@ -1,0 +1,87 @@
+ :root {
+    --purple: hsl(228, 45%, 44%);
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700 :hsl(0, 0%, 20%) ;
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+
+ }
+
+ * 
+ {
+    font-family:Inter,sans-serif;
+ }
+
+ body {
+   background-color: var(--grey-900);
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .card {
+   margin-block-end:20px;
+ }
+
+.content {
+   background-color:orange;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 50px;
+   /* margin-block-end: 20px; */
+   justify-content: center;
+}
+
+img 
+{
+   border-radius: 100px;
+   align-self: center;
+   margin-block-end: 5px;
+}
+
+h1 
+{
+   color: white;
+}
+
+h2 
+{
+   color: wheat;
+}
+
+h3 
+{
+   color:white;
+}
+
+.links
+{
+   display: flex;
+   flex-direction: column;
+   flex-grow: inherit;
+
+   /* Add Space between elements */
+   
+}
+
+.links button 
+   {
+      background-color: cadetblue;
+      
+   }
+
+ .attribution {
+        font-size: 20px;
+        text-align: center;
+        background-color: crimson;
+      }
+
+      .attribution a {
+        color: var(--purple);
+
+      }
