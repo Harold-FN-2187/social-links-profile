@@ -24,6 +24,7 @@
 
  .card {
    margin-block-end:20px;
+   width:fit-content
  }
 
 .content {
