@@ -8,6 +8,11 @@
 
  }
 
+ @font-face {
+   font-family: Inter;
+   src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+ }
+
  * 
  {
     font-family:Inter,sans-serif;
@@ -39,12 +44,11 @@
 
 img 
 {
-   border-radius: 50px;
+   border-radius: 50%;
    align-self: center;
    margin-block-end: 5px;
-   height: 50%;
-   width: 50%;
-
+   max-width: 50%;
+   max-height: 50%;
 }
 
 h1 
@@ -76,7 +80,7 @@ h3
    
 }
 
-.links .clickable 
+.links .link 
    {
       background-color: var(--grey-700);
       color:white;
@@ -85,8 +89,16 @@ h3
       padding:10px;
       text-align: center;
       flex:1;
+      font-weight: 600;
+   
       /* width: 100%; */
      
+   }
+
+   .link:hover {
+      background-color: #C5F82A;
+      color:var(--grey-800);
+
    }
 
  .attribution {
